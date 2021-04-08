@@ -1,14 +1,18 @@
 body {
 display: flex;
 flex-direction: column;
- justify-content: flex-start;
-background: linear-gradient(#e66465, #9198e5);
+justify-content: center;
+background: #CAC531;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin: 10px;
 padding: 0;
+color: black;
+font-family: 'Anton', sans-serif;
+
 }
 
 img {
-  border-radius: 50%;
   padding: 5px;
   width: 150px;
 }
@@ -19,9 +23,17 @@ table, th, td {
   max-width:500px;
 }
 
-a:hover {color: blue;}
+a:hover {color: white;}
 
 a {
 padding: 5px;
+flex-direction: initial;
+display: inline;
+
 }
+
+h1, h3, h4, p {
+line-height:5px;
+}
+
 
