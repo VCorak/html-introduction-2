@@ -1,7 +1,10 @@
 body {
 display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+flex-direction: column;
+ justify-content: flex-start;
+background: linear-gradient(#e66465, #9198e5);
+margin: 10px;
+padding: 0;
 }
 
 img {
@@ -10,6 +13,15 @@ img {
   width: 150px;
 }
 
-table, th, tr, td {
-
+table, th, td {
+  border: 1px solid black;
+  width:auto;
+  max-width:500px;
 }
+
+a:hover {color: blue;}
+
+a {
+padding: 5px;
+}
+
